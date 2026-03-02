@@ -1,0 +1,49 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+/.env
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# VSCode
+.vscode/
+
+# IDEs
+.idea/
+
+# Data files (large or sensitive) - ignore raw datasets
+scRNA_data.csv
+sc_RNA_labels.csv
+data/
+
+# Models and checkpoints
+models/
+*.h5
+*.pth
+*.ckpt
+logs/
+tensorboard/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Packaging
+pip-wheel-metadata/
+*.egg-info/
+
+# Testing
+.pytest_cache/
+
+# Misc
+.coverage
+*.sqlite3
+__MACOSX/
